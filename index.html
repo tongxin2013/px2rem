@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <!--如果安装了GCF，则使用GCF来渲染页面「"chrome=1"」，如果没有安装GCF，则使用最高版本的IE内核进行渲染「"IE=edge"」-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!--设置双核浏览器的浏览模式，分别代表用极速模式，兼容模式，IE模式打开-->
+  <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+  <meta content="telephone=no" name="format-detection" />
+  <!--关键词-->
+  <meta name="keywords" content="" />
+  <!--描述-->
+  <meta name="description" content="" />
+  <title>移动端px2rem适配</title>
+  <!--<link rel="stylesheet" type="text/css" href="css/px2rem-640.css" />-->
+  <link rel="stylesheet" type="text/css" href="css/px2rem-750.css" />
+  <style type="text/css">
+    html {
+      font-family: "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+    }
+    body,.wrapper {
+      margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    .content {
+      padding: 0 0.3rem;
+      font-size: 0.28rem;
+    }
+    h2 {
+      text-align: center;
+      font-size: 0.36rem;
+    }
+    h6 {
+      margin: 0;
+      font-weight: normal;
+      font-size: 0.32rem;
+    }
+    span {
+      margin-left: 0.24rem;
+      color: #666;
+    }
+    p {
+      color: cornflowerblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <!-- css intro -->
+      <section>
+        <h2>移动端REM适配解决方案</h2>
+        <h6>CSS文件:</h6>
+        <ul>
+          <li>px2rem-640.css<span>[ 设计图640px用 ]</span></li>
+          <li>px2rem-750.css<span>[ 设计图750px用 ]</span></li>
+        </ul>
+        <p>应用尺寸 = 设计尺寸 / 100 + rem</p>
+      </section>
+      <!-- js intro -->
+      <section>
+        <h6>JS文件:</h6>
+        <p>待整理</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
