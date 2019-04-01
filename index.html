@@ -26,6 +26,9 @@
       -moz-box-sizing: border-box;
       box-sizing: border-box;
     }
+    section {
+      padding: 0.3rem 0;
+    }
     .content {
       padding: 0 0.3rem;
       font-size: 0.28rem;
@@ -44,7 +47,12 @@
       color: #666;
     }
     p {
+      margin: 0;
       color: cornflowerblue;
+    }
+    small {
+      color: #999;
+      font-size: 0.24rem;
     }
   </style>
 </head>
@@ -52,14 +60,15 @@
   <div class="wrapper">
     <div class="content">
       <!-- css intro -->
+      <h2>移动端REM适配解决方案</h2>
       <section>
-        <h2>移动端REM适配解决方案</h2>
         <h6>CSS文件:</h6>
         <ul>
           <li>px2rem-640.css<span>[ 设计图640px用 ]</span></li>
           <li>px2rem-750.css<span>[ 设计图750px用 ]</span></li>
         </ul>
         <p>应用尺寸 = 设计尺寸 / 100 + rem</p>
+        <small>当前演示使用px2rem-750.css</small>
       </section>
       <!-- js intro -->
       <section>
