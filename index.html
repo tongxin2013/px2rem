@@ -15,6 +15,7 @@
   <title>移动端px2rem适配</title>
   <!--<link rel="stylesheet" type="text/css" href="css/px2rem-640.css" />-->
   <link rel="stylesheet" type="text/css" href="css/px2rem-750.css" />
+  <!--<script type="text/javascript" src="js/px2rem.js"></script>-->
   <style type="text/css">
     html {
       font-family: "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
@@ -54,6 +55,9 @@
       color: #999;
       font-size: 0.24rem;
     }
+    .warmming {
+      color: #c00;
+    }
   </style>
 </head>
 <body>
@@ -67,13 +71,24 @@
           <li>px2rem-640.css<span>[ 设计图640px用 ]</span></li>
           <li>px2rem-750.css<span>[ 设计图750px用 ]</span></li>
         </ul>
-        <p>应用尺寸 = 设计尺寸 / 100 + rem</p>
+        <p>开发尺寸 = 设计尺寸 / 100 + rem</p>
         <small>当前演示使用px2rem-750.css</small>
       </section>
       <!-- js intro -->
       <section>
         <h6>JS文件:</h6>
-        <p>待整理</p>
+        <ul>
+          <li>px2rem.js</li>
+        </ul>
+        <p>需预设1rem = ? px<span>[ 当前设置100 ]</span></p>
+        <p>需预设设计稿宽度<span>[ 当前设置750px ]</span></p>
+      </section>
+      <!-- warmming -->
+      <section>
+        <h6 class="warmming">遗留问题:</h6>
+        <ul>
+          <li>1px边框问题未解决</li>
+        </ul>
       </section>
     </div>
   </div>
